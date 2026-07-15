@@ -7,7 +7,7 @@ import { Input, Select } from "../ui/Input";
 import { PriorityBadge } from "../ui/Badge";
 import { aiApi } from "../../lib/api";
 
-// Hi 
+// hello
 
 const AIGenerateModal = ({ open, onClose, boardId, columns, defaultColumnId, onCreated }) => {
   const [goal, setGoal] = useState("");
