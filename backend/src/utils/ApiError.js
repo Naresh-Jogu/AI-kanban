@@ -25,5 +25,9 @@ class ApiError extends Error{
         return new ApiError(409, msg);
     }
 
-    
+
 }
+
+
+
+model.exports = ApiError;
