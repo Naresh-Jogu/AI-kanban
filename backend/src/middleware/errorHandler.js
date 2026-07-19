@@ -20,8 +20,6 @@ const errorHandler = (err, _req, res, _next) => {
 
 
 
-
-
 const notFoundHandler = (_req, res) => {
     res.status(404).json({
         error: "Route not found"
