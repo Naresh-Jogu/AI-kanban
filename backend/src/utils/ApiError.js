@@ -30,4 +30,4 @@ class ApiError extends Error{
 
 
 
-model.exports = ApiError;
+module.exports = ApiError;
