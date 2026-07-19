@@ -1,6 +1,9 @@
-const asyncHandler = require("../utils/asyncHandlers");
-const ApiError = require("../utils/ApiError");
-const bcrypt = require("bcryptjs");
+const bcrypt  = require("bcryptjs")
+const asyncHandler = require("../utils/asyncHandlers")
+const ApiError = require("../utils/ApiError")
+const { query } = require("../config/db")
+const { signToken } = require("../utils/jwt")
+
 
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
