@@ -28,7 +28,7 @@ app.use("/api", apiRoutes);
 app.use(notFoundHandler);
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5001 
+const PORT = process.env.PORT || 5000 
 app.listen(PORT, () => {
     console.log(`API Listening on http://localhost:${PORT}`);
 })
