@@ -76,5 +76,6 @@ const removeMember = asyncHandler(async (req, res) => {
 
   res.json({ success: true });
 });
+//
 
 module.exports = { deleteBoard, getActivity, addMember, removeMember };
