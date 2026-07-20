@@ -50,7 +50,7 @@ const register = asyncHandler( async (req, res) => {
 
 const login = asyncHandler( async (req, res) => {
     const email = (req.body.email || "").trim().toLowerCase();
-    const password = req.body
+    const password = req.body.password
 
     if (!email || !password) throw ApiError.badRequest("Email password are required");
     
